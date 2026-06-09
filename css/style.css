@@ -216,7 +216,49 @@ h2 {
 /* Team Content Styles */
 .team_content {
     text-align: center;
-    padding: 100px 20px 80px;
+    padding: 5px 20px 5px;
+}
+
+.picture img {
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.name-social {
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 0;
+}
+
+.name-social h4 {
+    margin: 0;
+}
+
+.name-social > div {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.name-social .social_acc {
+    margin-top: 0;
+}
+
+.team_content .name-social.flex {
+    margin-top: 10px;
+}
+
+.team_content .name-social.flex > div {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .team_content .content {
